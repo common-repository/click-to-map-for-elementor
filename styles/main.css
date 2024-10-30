@@ -1,0 +1,26 @@
+.elementor-editor-active .click__map {
+  border: 1px dashed #999;
+}
+
+.click__map {
+  position: relative;
+}
+
+.click__map__text {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.click__map__text__content {
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid #999;
+}
